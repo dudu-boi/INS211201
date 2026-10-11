@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cred{
+    justify-content: flex-start;
+}
+
+header {
+    background-color: rgba(30, 77, 213);
+    color: white;
+    border: 2px solid rgba(30, 77, 213);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+header p {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+.cred img {
+    width: 50px;
+    height: auto;
+}
+
+nav {
+    background-color: rgba(30, 58, 136);
+}
+
+nav ul {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 600px;
+    margin: auto;
+    list-style: none;
+}
+
+footer {
+    background-color: rgba(20, 26, 40);
+    text-align: center;
+    color: white;
+    border: 20px solid rgba(20, 26, 40);
+}
